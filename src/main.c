@@ -42,7 +42,9 @@ typedef pthread_mutex_t lock_t;
 
 #include <Limelight.h>
 
-#define HOST_VERSION "0.1.0"
+#ifndef HOST_VERSION
+#define HOST_VERSION "dev"
+#endif
 #define PROTOCOL_VERSION 1
 #define MAX_MESSAGE (1 << 20)
 

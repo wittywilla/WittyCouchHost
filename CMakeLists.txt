@@ -50,6 +50,11 @@ endif()
 add_subdirectory(third_party/moonlight-common-c)
 
 add_executable(wittycouch-host src/main.c)
+
+# What it says it is, from the one place a version is written.
+file(READ "${CMAKE_CURRENT_SOURCE_DIR}/module.json" WITTY_MANIFEST)
+string(REGEX MATCH "\"version\": *\"([^\"]+)\"" _ "${WITTY_MANIFEST}")
+target_compile_definitions(wittycouch-host PRIVATE "HOST_VERSION=\"${CMAKE_MATCH_1}\"")
 target_include_directories(wittycouch-host PRIVATE third_party/moonlight-common-c/src)
 target_link_libraries(wittycouch-host PRIVATE moonlight-common-c)
 set_target_properties(wittycouch-host PROPERTIES C_STANDARD 11)
