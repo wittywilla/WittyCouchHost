@@ -18,7 +18,7 @@ A stream comes from someone else's computer, and this program parses it in C, so
 
 No games come with it.
 
-How to use it is in **Help** inside WittyMediaServer: see the game PCs guide.
+How to use it is in **Help** inside WittyMediaServer: see Game PCs.
 
 ## How to get it
 
