@@ -4,6 +4,14 @@ The separate program that carries WittyCouch's game streams: Moonlight's streami
 
 It isn't made by the Moonlight or Sunshine projects. It's built on Moonlight's code, whose authors did the hard part.
 
+<!-- pictures -->
+
+![The Game PCs page in Settings, where a PC running this host is added](docs/images/settings-couch.webp)
+
+<sub>This host has no screens of its own: this is where a server adds a PC running it. Settings, Game PCs, on a server with none added yet.</sub>
+
+<!-- /pictures -->
+
 ## What it does
 
 WittyMediaServer starts it for each game stream and talks to it over stdin and stdout, using the messages in [PROTOCOL.md](PROTOCOL.md). It connects to a PC running Sunshine, and passes on whole video frames and audio packets without decoding them.
