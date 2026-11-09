@@ -1,16 +1,33 @@
 WittyCouch Host
-Licensed under the GNU General Public License, version 3: see LICENSE.
+Copyright 2026 WittyWilla and contributors
+https://github.com/wittywilla/WittyCouchHost
+
+This product includes software developed by WittyWilla as part of the
+WittyMediaServer project ("WittyCouch Host, developed by WittyWilla").
+
+This project's own code (src/, scripts/, CMakeLists.txt, cmake/, PROTOCOL.md) is
+licensed under the GNU Affero General Public License, version 3 or (at your option)
+any later version (AGPL-3.0-or-later): see LICENSE.
+
+It is built against moonlight-common-c, which is licensed under the GNU General
+Public License, version 3 (GPL-3.0). moonlight-common-c is fetched at build time by
+scripts/fetch-core.sh into third_party/, which is not part of this repository. The
+combined binary is therefore distributed under terms satisfying both licences, as
+permitted by the compatibility clause in section 13 of the GPLv3 and section 13 of
+the AGPLv3. The GPL-3.0 text is provided in LICENSE.GPL-3.0. The Moonlight-derived
+parts remain under their original GPL-3.0 licence and the copyright of the Moonlight
+project.
 
 This program is built on the work of the people named below, and contains or links their code. It isn't
 made by, or endorsed by, any of them. Their source code, at the exact commits used, is in the source
 archive beside each release.
 
 ================================================================================
-Moonlight (moonlight-common-c), GPL-3.0: see LICENSE
+Moonlight (moonlight-common-c), GPL-3.0: see LICENSE.GPL-3.0
 
 https://github.com/moonlight-stream/moonlight-common-c
 Moonlight's streaming core, by Cameron Gutman and the other authors of the Moonlight project. It's used
-unchanged. Its licence is the same GPL-3.0 text as this program's.
+unchanged, and stays under its own GPL-3.0 licence and the Moonlight project's copyright.
 
 ================================================================================
 ENet, MIT
@@ -540,5 +557,5 @@ OF THIS SOFTWARE.
 GCC's runtime libraries. In Linux releases and Windows builds
 
 https://gcc.gnu.org
-libgcc and libssp, under GPL-3.0 (see LICENSE) with the GCC Runtime Library Exception, version 3.1:
+libgcc and libssp, under GPL-3.0 (see LICENSE.GPL-3.0) with the GCC Runtime Library Exception, version 3.1:
 https://www.gnu.org/licenses/gcc-exception-3.1.html

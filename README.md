@@ -78,7 +78,7 @@ Two CMake options, for building some other way. `-DUSE_MBEDTLS=OFF` links the sy
 
 ## Licence
 
-**GPL-3.0:** see [LICENSE](LICENSE). What's built into it, each checked against its own licence file at the commit pinned in [`scripts/fetch-core.sh`](scripts/fetch-core.sh):
+**AGPL-3.0-or-later** for this project's own code: see [LICENSE](LICENSE). The Moonlight-derived parts (moonlight-common-c, fetched at build time) stay GPL-3.0: see [LICENSE.GPL-3.0](LICENSE.GPL-3.0), and the combined binary is distributed under terms satisfying both (GPLv3 §13 / AGPLv3 §13). What's built into it, each checked against its own licence file at the commit pinned in [`scripts/fetch-core.sh`](scripts/fetch-core.sh):
 
 | What | Licence | In which builds |
 |---|---|---|
@@ -92,11 +92,11 @@ Two CMake options, for building some other way. `-DUSE_MBEDTLS=OFF` links the sy
 
 Mbed TLS's own third-party code (Everest, p256-m) isn't used: this program's settings leave it out. [NOTICE](NOTICE) credits the authors, and carries the licence texts they ask to have kept with a binary.
 
-It's a separate program. WittyMediaServer, WittyCouch and its browser client are Apache-2.0 and don't contain or link any of this. They only exchange the messages in [PROTOCOL.md](PROTOCOL.md), which anyone can implement.
+It's a separate program. WittyMediaServer, WittyCouch and its browser client are AGPL-3.0-or-later and don't contain or link any of this. They only exchange the messages in [PROTOCOL.md](PROTOCOL.md), which anyone can implement.
 
 ## Legal
 
-WittyCouch Host is an independent open-source project built on Moonlight's code under the GPL-3.0. It
+WittyCouch Host is an independent open-source project, AGPL-3.0-or-later, built on Moonlight's code under the GPL-3.0. It
 isn't associated with, sponsored by or endorsed by the Moonlight or Sunshine projects, NVIDIA, or any
 game publisher. No games come with it. Any third-party names here only describe what it works with, and
 belong to their owners. It's provided “as is”, with no warranty; see [LICENSE](LICENSE). Local law
@@ -121,5 +121,5 @@ To release:
 
 To take a version back, run the *withdraw* workflow from the *Actions* tab. It adds the version to a signed list on the release tagged `withdrawals`, which servers read.
 
-Licensed under GPL-3.0: see [LICENSE](LICENSE) and [NOTICE](NOTICE).
+Licensed under AGPL-3.0-or-later, with Moonlight-derived parts under GPL-3.0: see [LICENSE](LICENSE), [LICENSE.GPL-3.0](LICENSE.GPL-3.0) and [NOTICE](NOTICE).
 <!-- /module-kit -->
