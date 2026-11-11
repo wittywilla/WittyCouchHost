@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 WittyWilla and contributors
 // Where Mbed TLS gets its random numbers: the operating system, with no files involved.
 #ifdef __linux__
 #define _GNU_SOURCE

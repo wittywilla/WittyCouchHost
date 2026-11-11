@@ -1,4 +1,6 @@
 #!/bin/sh
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 WittyWilla and contributors
 # Fetches everything this program links, at the exact commits it was built and tested with:
 # Moonlight's streaming core (with ENet and nanors, its own submodules), and Mbed TLS.
 # In a source archive they're already there, and nothing is fetched.

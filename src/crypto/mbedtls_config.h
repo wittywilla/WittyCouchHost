@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 WittyWilla and contributors
 // Mbed TLS with only what Moonlight's streaming core asks it for: AES in GCM and CBC with PKCS#7
 // padding. No certificates, no parsers, no public keys and no file access, so less to attack and
 // less to carry. Keys only ever live in memory.

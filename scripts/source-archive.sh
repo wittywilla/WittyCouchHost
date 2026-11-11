@@ -1,4 +1,6 @@
 #!/bin/sh
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 WittyWilla and contributors
 # Makes the source archive each release carries, with everything a binary was built from, as
 # GPL-3.0 section 6 asks: this program and every pinned dependency, ready to build with no network.
 #

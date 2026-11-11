@@ -1,4 +1,6 @@
 #!/bin/sh
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Copyright (C) 2026 WittyWilla and contributors
 # Builds this program, from fetching its sources to one file in dist/:
 #
 #   sh scripts/build.sh [windows-x64 | linux-x64 | linux-arm64 | macos-x64 | macos-arm64]

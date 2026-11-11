@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 WittyWilla and contributors
 // Mbed TLS's locks on Windows, where it has none of its own: see threads_windows.c.
 #pragma once
 
