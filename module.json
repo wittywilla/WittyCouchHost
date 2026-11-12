@@ -8,7 +8,7 @@
   "entry": "wittycouch-host",
   "api": 3,
   "minServer": "0.6.0-alpha",
-  "maxServer": "0.6.x",
+  "maxServer": "0.8.x",
   "group": "games",
   "summary": "The separate AGPL-3.0 program (with GPL-3.0 Moonlight parts) that carries WittyCouch's game streams, built on Moonlight's code."
 }
