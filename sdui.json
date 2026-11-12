@@ -1,0 +1,13 @@
+{
+  "format": "wittymodule-sdui",
+  "formatVersion": 1,
+  "module": "wittycouchhost",
+  "catalog": 2,
+  "theme": {
+    "scope": "wittycouchhost",
+    "label": "WittyCouch Host",
+    "tokens": {
+      "accent": "#7F46B8"
+    }
+  }
+}

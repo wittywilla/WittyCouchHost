@@ -30,7 +30,7 @@ How to use it is in **Help** inside WittyMediaServer: see Game PCs.
 
 ## How to get it
 
-Adding [WittyCouch](https://github.com/wittywilla/WittyCouch) from the module store brings it: **Settings → Modules**, then **Browse the store**. **Settings → Modules** then lists it under **Installed separately**. That needs WittyMediaServer 0.6.0-alpha or later, and works with nothing older. The range this version fits is in `module.json`: 0.6.0-alpha through 0.8.x, so WittyMediaServer 0.8.0-alpha included.
+Adding [WittyCouch](https://github.com/wittywilla/WittyCouch) from the module store brings it: **Settings → Modules**, then **Browse the store**. **Settings → Modules** then lists it under **Installed separately**. That needs WittyMediaServer 0.8.0-alpha or later, as this version carries module API 4 (`sdui.json`), and works with nothing older. The range it fits is in `module.json`: 0.8.0-alpha through 0.8.x.
 
 Every release carries `wittycouch-host-<version>-source.tar.gz` beside its programs, with this program and every dependency at its exact commit, listed in `third_party/COMMITS.txt`. It builds with no network.
 
