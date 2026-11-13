@@ -138,7 +138,7 @@ jobs:
             [ "${pair%%:*}" = windows-x64 ] && ext=.exe
             cp "$RUNNER_TEMP/artifacts/wittycouch-host-${pair%%:*}$ext" "$RUNNER_TEMP/prebuilt/wittycouch-host-${pair##*:}$ext"
           done
-          go run github.com/wittywilla/wittymodule/cmd/wittymodule@v0.3.0 pack -prebuilt "$RUNNER_TEMP/prebuilt" -out release .
+          go run github.com/wittywilla/wittymodule/cmd/wittymodule@v0.4.0 pack -prebuilt "$RUNNER_TEMP/prebuilt" -out release .
           cp "$RUNNER_TEMP/artifacts/wittycouch-host-$ver-source.tar.gz" release/
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
@@ -183,7 +183,7 @@ jobs:
           key="$RUNNER_TEMP/module.key"
           trap 'rm -f "$key"' EXIT
           (umask 077; printf '%s\n' "$SIGNING_KEY" > "$key")
-          go run github.com/wittywilla/wittymodule/cmd/wittymodule@v0.3.0 sign -key "$key" -expect "wittycouchhost-${GITHUB_REF_NAME#v}" signed/*-SHA256SUMS.txt
+          go run github.com/wittywilla/wittymodule/cmd/wittymodule@v0.4.0 sign -key "$key" -expect "wittycouchhost-${GITHUB_REF_NAME#v}" signed/*-SHA256SUMS.txt
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: signature
