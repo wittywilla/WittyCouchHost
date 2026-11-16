@@ -96,14 +96,6 @@ Mbed TLS's own third-party code (Everest, p256-m) isn't used: this program's set
 
 It's a separate program. WittyMediaServer, WittyCouch and its browser client are AGPL-3.0-or-later and don't contain or link any of this. They only exchange the messages in [PROTOCOL.md](PROTOCOL.md), which anyone can implement.
 
-## Legal
-
-WittyCouch Host is an independent open-source project, AGPL-3.0-or-later, built on Moonlight's code under the GPL-3.0. It
-isn't associated with, sponsored by or endorsed by the Moonlight or Sunshine projects, NVIDIA, or any
-game publisher. No games come with it. Any third-party names here only describe what it works with, and
-belong to their owners. It's provided “as is”, with no warranty; see [LICENSE](LICENSE). Local law
-applies to how you use it. This isn't legal advice.
-
 <!-- module-kit -->
 ## Releasing
 
@@ -125,3 +117,11 @@ To take a version back, run the *withdraw* workflow from the *Actions* tab. It a
 
 Licensed under AGPL-3.0-or-later, with Moonlight-derived parts under GPL-3.0: see [LICENSE](LICENSE), [LICENSE.GPL-3.0](LICENSE.GPL-3.0) and [NOTICE](NOTICE).
 <!-- /module-kit -->
+
+## Legal
+
+WittyCouch Host is an independent open-source project, AGPL-3.0-or-later, built on Moonlight's code under the GPL-3.0. It
+isn't associated with, sponsored by or endorsed by the Moonlight or Sunshine projects, NVIDIA, or any
+game publisher. No games come with it. Any third-party names here only describe what it works with, and
+belong to their owners. It's provided “as is”, with no warranty; see [LICENSE](LICENSE). Local law
+applies to how you use it. This isn't legal advice.
