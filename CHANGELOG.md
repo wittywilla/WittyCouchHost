@@ -3,6 +3,10 @@
 What changed in WittyCouchHost, newest first. What changed before it had a repository of its own is in the
 [WittyMediaServer changelog](https://github.com/wittywilla/WittyMediaServer/blob/master/CHANGELOG.md).
 
+## 0.4.1
+
+- The README's pictures are retaken from WittyMediaServer 0.8.0-alpha.
+
 ## 0.4.0
 
 - **Module API 5** (0.4.0): carries `integration.json`, which says it adds nothing to a server of its own: WittyCouch and WittyRigs run it (the host API's `/programs/wittycouchhost`). A server takes module API 5 only, so this is the version WittyMediaServer runs. Built on WittyModule 0.5.4 and module API 5: its workflows use WittyModule 0.5.4.
