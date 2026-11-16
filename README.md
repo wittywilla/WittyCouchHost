@@ -2,6 +2,8 @@
 
 The separate program that carries WittyCouch's game streams: Moonlight's streaming core as a small program of its own. You need it to play through WittyCouch, and it's added for you.
 
+It's a program module of [WittyMediaServer](https://github.com/wittywilla/WittyMediaServer) ([wittymediaserver.com](https://wittymediaserver.com)): it has no screens or settings of its own, and is there for [WittyCouch](https://github.com/wittywilla/WittyCouch).
+
 It isn't made by the Moonlight or Sunshine projects. It's built on Moonlight's code, whose authors did the hard part.
 
 <!-- pictures -->
@@ -30,7 +32,7 @@ How to use it is in **Help** inside WittyMediaServer: see Game PCs.
 
 ## How to get it
 
-Adding [WittyCouch](https://github.com/wittywilla/WittyCouch) from the module store brings it: **Settings → Modules**, then **Browse the store**. **Settings → Modules** then lists it under **Installed separately**. That needs WittyMediaServer 0.8.0-alpha or later, as this version carries module API 4 (`sdui.json`), and works with nothing older. The range it fits is in `module.json`: 0.8.0-alpha through 0.8.x.
+Adding [WittyCouch](https://github.com/wittywilla/WittyCouch) from the module store brings it: **Settings → Modules**, then **Browse the store**. **Settings → Modules** then lists it under **Installed separately**. That needs WittyMediaServer 0.8.0-alpha or later, as this version carries module API 5, and works with nothing older. The range it fits is in `module.json`: 0.8.0-alpha through 0.8.x.
 
 Every release carries `wittycouch-host-<version>-source.tar.gz` beside its programs, with this program and every dependency at its exact commit, listed in `third_party/COMMITS.txt`. It builds with no network.
 
