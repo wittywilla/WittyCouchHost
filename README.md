@@ -78,6 +78,8 @@ Two CMake options, for building some other way. `-DUSE_MBEDTLS=OFF` links the sy
 
 [`.github/workflows/release.yml`](.github/workflows/release.yml) builds all of them on every push, and publishes a release for a `v*` tag.
 
+**Working on a Mac?** Start with WittyMediaServer's [MAC-START-HERE.md](https://github.com/wittywilla/WittyMediaServer/blob/v0.8.1-alpha/MAC-START-HERE.md): what to install, what to clone, and every Mac task in order: this repository's is item 7.3 (#9).
+
 ## Licence
 
 **AGPL-3.0-or-later** for this project's own code: see [LICENSE](LICENSE). The Moonlight-derived parts (moonlight-common-c, fetched at build time) stay GPL-3.0: see [LICENSE.GPL-3.0](LICENSE.GPL-3.0), and the combined binary is distributed under terms satisfying both (GPLv3 §13 / AGPLv3 §13). What's built into it, each checked against its own licence file at the commit pinned in [`scripts/fetch-core.sh`](scripts/fetch-core.sh):
